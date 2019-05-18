@@ -259,17 +259,17 @@ text-align: center;
 
 margin: 15px;
         width: 600px; 
-        height: 450px; 
+        height: auto;
+        max-width:100% 
         
 }
-.wrapper img:hover{
+.wrapper img:hover {
+transform:scale(1.2); /* увеличиваем картинку при наведении */
 -webkit-transform:scale(1.2);
 -moz-transform:scale(1.2);
 -o-transform:scale(1.2);
-opacity: ;
-box-shadow:0px 0px 25px #fff;
--webkit-box-shadow:0px 0px 30px #fff;
--moz-box-shadow:0px 0px 30px #fff;
-display: block;
-  margin: 0 auto;
+margin-left: 100px;
+margin-top: -60px;
+box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+z-index: 200; }
 }
